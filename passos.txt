@@ -1,0 +1,81 @@
+# SEQUÊNCIA DE COMANDOS APLICADOS PARA A REALIZAÇÃO DO EXERCÍCIO 01:
+
+1. Mudar o diretório
+
+cd /c/Users/Julia/Downloads/MESTRADO-INPE/PROGRAMACAO
+
+2. Clonar o repositório SER-347
+
+git clone https://github.com/Thais-Medeiros/SER-347
+
+3. Verificar arquivos existentes dentro do diretório em questão
+
+ls
+
+4. Encontrar os arquivos ocultos
+
+ls -a
+
+5. Verificar o status do repositório
+
+git status
+
+6. Descartar as mudanças feitas no arquivo README.md
+
+git checkout -- README.md
+
+7. Incluir o arquivo na lista de atualizações
+
+git add README.md
+
+8. Confirmar e salvar todas as modificações feitas
+
+git commit -m "Primeira alteração do arquivo README.md"
+
+9. Verificar novamente o status do repositório
+
+git status
+
+10. Atualizar a cópia local com a remota
+
+git pull
+
+11. Atualizar o repositório remoto com as modificações locais
+
+git push
+
+#CRIAR UM NOVO ARQUIVO FATORIAL.PY E ADICIONAR AO REPOSITÓRIO REMOTO:
+
+12. Verificar o status do repositório
+
+git status
+
+13. Incluir o arquivo na lista de atualizações
+
+git add fatorial.py
+
+14. Confirmar e salvar todas as modificações feitas
+
+git commit -m "Adicionando uma função para cálculo do fatorial"
+
+15. Atualizar o repositório remoto com as modificações locais
+
+git push
+
+#OS MESMOS COMANDOS FORAM APLICADOS PARA ADICIONAR ESTE ARQUIVO .TXT COM A EXPLICAÇÃO DOS PASSOS SEGUIDOS AO REPOSITÓRIO REMOTO:
+
+16. Verificar o status do repositório
+
+git status
+
+17. Incluir o arquivo na lista de atualizações
+
+git add passos.txt
+
+18. Confirmar e salvar todas as modificações feitas
+
+git commit -m "Adicionando o arquivo txt ao repositório remoto"
+
+19. Atualizar o repositório remoto com as modificações locais
+
+git push
